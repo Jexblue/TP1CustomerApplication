@@ -34,4 +34,8 @@ public class CustomerManager {
     public Customer update(Customer customer) {
         return em.merge(customer);
     }
+    
+    public Customer findById(int idCustomer) {
+        return em.find(Customer.class, idCustomer);  
+    }
 }

@@ -21,7 +21,8 @@
                     <f:facet name="header">
                         <h:outputText value="Id"/>
                     </f:facet>
-                    <h:outputText value="#{item.customerId}"/>
+                    <h:link value="#{item.customerId}"
+                            outcome="customerDetails?idCustomer=#{item.customerId}"/>
                 </p:column>
                  <p:column sortBy="#{item.name}" filterBy="#{item.state}">
                     <f:facet name="header">

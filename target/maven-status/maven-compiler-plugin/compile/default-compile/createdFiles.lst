@@ -2,7 +2,10 @@ mg\itu\jerry\tp1\ejb\CustomerManager.class
 mg\itu\jerry\tp1\JakartaRestConfiguration.class
 mg\itu\jerry\tp1\resources\JakartaEE10Resource.class
 mg\itu\jerry\tp1\config\ConfigJSF.class
+mg\itu\jerry\tp1\jsf\CustomerDetailsBean.class
 mg\itu\jerry\tp1\entities\MicroMarket.class
+mg\itu\jerry\tp1\jsf\DiscountConvert.class
 mg\itu\jerry\tp1\entities\Customer.class
+mg\itu\jerry\tp1\ejb\DiscountManager.class
 mg\itu\jerry\tp1\entities\Discount.class
 mg\itu\jerry\tp1\jsf\CustomerBean.class
